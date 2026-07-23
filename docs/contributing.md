@@ -102,7 +102,7 @@ When reviewing contributions, focus on:
 1. Create new folder in `src/_locales/{language_code}/`
 2. Copy structure from existing language (e.g., `en/`)
 3. Translate all JSON files
-4. Update `manifest.json` files to include the new language
+4. Update the browser manifests if the new language needs manifest metadata
 
 ### Translation Guidelines
 - **Keep keys consistent** - Use the same message keys as English

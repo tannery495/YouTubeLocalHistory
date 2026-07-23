@@ -1,18 +1,19 @@
-# ![YT re:Watch](./src/icon48.png) YT re:Watch - YouTube History Extension for Multiple Accounts & Privacy
+# ![YT re:Watch](./src/icon48.png) YT re:Watch
 
 [![Tests](https://github.com/EdinUser/YouTubeLocalHistory/actions/workflows/ci.yml/badge.svg)](https://github.com/EdinUser/YouTubeLocalHistory/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/EdinUser/YouTubeLocalHistory)](https://github.com/EdinUser/YouTubeLocalHistory/releases)
 [![Telegram Channel](https://img.shields.io/badge/Community-Telegram-2AABEE?logo=telegram&logoColor=white)](https://t.me/+eFftKWGVvSpiZjZk)
-[![Community Tool – YouTube History Converter (tannery495)](https://img.shields.io/badge/Community_Tool-YouTube_History_Converter-2AABEE)](https://github.com/tannery495/youtube-history-converter)
 
-# 📚 **[→ New User? Start Here! User-Friendly Guide](./docs/index.md) ←**
+**Private local YouTube history, progress tracking, local subscriptions, and a full YouTube-style feed inside your browser.**
+
+YT re:Watch keeps your watch progress on your device so you can switch YouTube accounts, use YouTube logged out, import your data, and browse a local feed without relying on Google account history.
+
+📚 **[New user? Start with the guide](./docs/index.md)**
 
 <div align="center">
-  <strong>🔄 YouTube Account Switching Made Easy! Same history across ALL accounts + YouTube history privacy!</strong>
+  <strong>Local history • Local subscriptions • In-extension feed • No Google login required</strong>
   <br>
-  <em>🔄 Multi-account extension • 📊 History privacy • ✨ No login required • 🎯 Progress tracking</em>
-  <br>
-  <em>📖 <a href="./docs/faq.md">FAQ</a> | 📚 <a href="./docs/detailed_guide.md">Complete Guide</a> | 🔧 <a href="./docs/technical.md">Developer Docs</a></em>
+  <em><a href="./docs/faq.md">FAQ</a> | <a href="./docs/detailed_guide.md">Complete Guide</a> | <a href="./docs/technical.md">Developer Docs</a></em>
 </div>
 
 ---
@@ -23,48 +24,36 @@
   [![Chrome Web Store](https://img.shields.io/badge/Get_it_on-Chrome_Web_Store-4285F4?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/local-youtube-video-histo/pebiokefjgdbfnkolmblaaladkmpilba)
   [![Firefox Add-ons](https://img.shields.io/badge/Get_it_on-Firefox_Add--ons-FF7139?logo=firefox-browser&logoColor=white)](https://addons.mozilla.org/firefox/addon/yt-rewatch/)
   
-  *YouTube progress tracking without account limitations - Your viewing history stays private*
+  *YouTube progress tracking without account limitations. Your viewing history stays local.*
 </div>
 
 <div align="center">
   <img src="./docs/images/hero.jpg" alt="YT re:Watch Extension Interface" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <br>
-  <em>Main extension interface showing video history, analytics, and settings</em>
+  <em>Full feed interface for local recommendations, subscriptions, search, history, playlists, analytics, and settings</em>
 </div>
 
 ---
 
-## 🎯 Perfect for YouTube Multiple Accounts & Privacy
+## What It Does
 
-**🔄 Tired of losing YouTube progress when switching accounts? Need YouTube history without login?**
+YT re:Watch gives YouTube a local history layer that works independently from your Google account.
 
-YT re:Watch is the **YouTube history extension** that solves account switching problems:
+- **Track progress locally** across YouTube accounts, private sessions, or logged-out browsing
+- **Show watched labels** and progress bars inside the extension feed
+- **Resume videos** from your saved local timestamp
+- **Subscribe to channels locally** and browse their videos inside the extension feed
+- **Manage local channels, subscriptions, playlists, history, and settings** from one full-page extension interface
+- **Search YouTube from the extension**, with grouped channel results and in-extension channel pages
+- **Import YouTube history and channels** from Google Takeout / CSV files
+- **Back up and restore all local data** as a JSON file
+- **Analyze your watching patterns** without sending your history to an app server
 
-### 🔄 **YouTube Multiple Accounts Support**
-- ✅ **Same history across ALL YouTube accounts** - switch freely without losing progress
-- ✅ **YouTube without login** - track videos without any account required
-- ✅ **Account switching made easy** - consistent viewing history regardless of login status
-- ✅ **Multi-account workflow** - perfect for work/personal YouTube accounts
-- ✅ **Family computer friendly** - separate histories without account conflicts
+### Privacy Transparency
 
-### 🎯 **YouTube Progress Tracking & Visual Overlays**
-- ✅ **Progress bars on YouTube** - see completion percentage on video thumbnails
-- ✅ **"Viewed" labels** - customizable overlay showing watched videos
-- ✅ **Resume where you left off** - automatic video position tracking
-- ✅ **YouTube Shorts tracking** - separate tracking for short-form content
-- ✅ **Playlist discovery** - track and organize YouTube playlists
+YT re:Watch stores your history, subscriptions, playlists, settings, and analytics locally in your browser.
 
-### 🔒 **YouTube History Privacy** 
-- ✅ **Local storage only** - Google doesn't get your viewing progress data
-- ✅ **No YouTube tracking** - replaces Google's built-in history system
-- ✅ **Private YouTube browsing** - watch without affecting recommendations
-- ✅ **Unlimited local storage** - GB-scale capacity with hybrid IndexedDB system
-
-### ⚠️ **Privacy Transparency**
-**What this extension protects:** YouTube viewing history and video progress tracking only  
-**What it DOESN'T protect:** IP tracking, cookies, browser fingerprinting, or other Google tracking
-
-**For complete privacy:** Combine with VPN, ad blockers, and privacy-focused browsers
+It does not provide network anonymity. YouTube can still see normal YouTube page requests, cookies, IP address, and browser fingerprinting signals. For stronger privacy, combine this extension with browser privacy settings, content blockers, VPN/Tor-style tools, and logged-out browsing.
 
 ## 🚀 Get Started in 30 Seconds
 
@@ -76,9 +65,10 @@ YT re:Watch is the **YouTube history extension** that solves account switching p
 ### Step 2: That's It!
 - Go to YouTube and start watching videos
 - The extension works automatically in the background
-- Click the extension icon to see your watch history
+- Click the extension icon to continue watching, open Watch Later, or launch the full feed page
+- Use the feed page to search YouTube, subscribe locally, browse channels, manage playlists, view history, and back up your data
 
-## 🎯 Perfect For These YouTube Users
+## Perfect For
 
 ### 🔄 **Multi-Account Users** (#1 Use Case!)
 - "I have work and personal YouTube accounts - hate losing progress when switching"
@@ -98,27 +88,42 @@ YT re:Watch is the **YouTube history extension** that solves account switching p
 - "I want consistent YouTube history for research projects"
 - "I need to analyze my viewing patterns privately"
 
+### 📺 **Local Feed Users**
+- "I want a subscriptions feed without using a Google account subscription list"
+- "I want to import channels and browse them locally"
+- "I want a YouTube-like feed that I can back up and move between browsers"
+
 ---
 
-## 📱 What You'll See on YouTube
+## 📱 What You'll See
 
-### 🏷️ **Visual Overlays** (Key Feature!)
-The extension adds smart visual indicators directly on YouTube:
+### 🏷️ **Viewed Indicators**
+The extension adds smart visual indicators inside YT re:Watch:
 - **"Viewed" labels** - Customizable text showing watched videos
-- **Progress bars** - Visual completion percentage on video thumbnails  
+- **Progress bars** - Visual completion percentage on video cards
 - **Custom colors** - Choose from blue, red, green, purple, or orange
 - **Adjustable size** - Small, medium, large, or extra-large labels
-- **Works everywhere** - Video listings, search results, recommendations
+- **Works across feed views** - Home, subscriptions, playlists, search, and history
 
 Additionally, the history list now shows the video’s channel name beneath the title for quicker scanning.
 
 ### 🎛️ **Extension Interface**
-Click the extension icon to access:
-- **Videos Tab** - Your main viewing history with progress tracking
-- **Shorts Tab** - Separate tracking for YouTube Shorts
-- **Playlists Tab** - Discovered playlists with metadata
-- **Analytics Tab** - Interactive charts showing viewing patterns
-- **Settings Tab** - Full customization options
+The popup now focuses on quick actions:
+- **Continue watching** - Quickly resume recently watched videos
+- **Watch Later** - Open videos you saved for later
+- **Open Feed** - Launch the full local YouTube-style interface
+
+The full feed page contains the larger sections:
+- **Home** - Local recommendations from your subscribed channels
+- **Shorts** - Dedicated Shorts view
+- **Subscriptions** - Latest videos from locally subscribed channels in date order
+- **Channels** - All locally subscribed channels, with open/unsubscribe actions
+- **Playlists** - Local playlists you create and manage
+- **History** - Watched videos, progress, and date watched
+- **Analytics** - Watch-time and completion statistics
+- **Settings** - Theme, history/feed, import/export, and cleanup controls
+
+The feed page also includes extension search with YouTube results, grouped channel matches, and in-extension channel pages where you can subscribe locally and browse a channel's videos without using YouTube's account subscriptions.
 
 ---
 
@@ -127,15 +132,26 @@ Click the extension icon to access:
 ### 🔄 **Multi-Account & Privacy**
 - **Account Independence**: Same YouTube history across all accounts (or no account)
 - **Local Storage**: All data stored securely on your device only
-- **No Google Tracking**: YouTube doesn't get your viewing progress data
-- **Export/Import**: Backup and restore your YouTube history anytime
+- **Local Progress Tracking**: Use your own browser history instead of relying on YouTube account history
+- **Backup/Restore**: Backup and restore your full local YT re:Watch data anytime
 - **Robust Deletion System**: Deleted videos stay deleted across all devices with tombstone-based protection
 
 ### 🎯 **Progress Tracking**
-- **Visual Overlays**: Customizable "viewed" labels and progress bars
+- **Viewed indicators**: Customizable "viewed" labels and progress bars on YouTube thumbnails and inside YT re:Watch
 - **Auto-save**: Tracks video position every 5 seconds
 - **YouTube Shorts**: Separate tracking for short-form content
 - **Playlist Discovery**: Track and organize YouTube playlists
+
+### 🏠 **Local YouTube-Style Feed**
+- **Local subscriptions**: Subscribe to channels locally without needing a Google account
+- **Home page**: Randomized local recommendations from subscribed channels, balanced with freshness and channel diversity
+- **Subscriptions page**: Latest videos from subscribed channels in date order
+- **Channels page**: View, open, and unsubscribe from local channels
+- **Extension search**: Search YouTube from the feed page, with channel matches grouped above video results
+- **In-extension channel pages**: Open a channel inside YT re:Watch to subscribe locally and browse that channel's videos
+- **Local playlists**: Create playlists, add videos from the feed, view saved videos, and remove items
+- **Local history page**: Review watched videos, watch progress, and watched date
+- **Cleaner full-page UI**: Larger YouTube-like interface for browsing feed, history, analytics, playlists, and settings
 
 ### 📊 **Analytics & Insights**
 - **Interactive Charts**: Viewing patterns by hour and day
@@ -149,19 +165,18 @@ Analytics now prefer locally persisted, privacy-preserving statistics for better
 
 ### 🔄 **Data Portability & Local Storage**
 - **Unlimited local storage**: GB-scale capacity with IndexedDB + localStorage hybrid system
+- **Full backup/restore**: Export and restore history, subscriptions, playlists, watch later, settings, stats, preferences, and local caches via JSON files
 - **Manual export/import**: Transfer data between devices via JSON files
 - **Bulletproof reliability**: Core functionality works even if IndexedDB unavailable
 - **Privacy protection**: All data stays local, no cloud storage required
 - **Performance optimized**: Fast queries with indexed search and memory-efficient pagination
 
-## Community tools
-- **YouTube history converter** by [@tannery495](https://github.com/tannery495): Converts Google Takeout `watch-history.json` into a YT re:Watch import file. Repo: [github.com/tannery495/youtube-history-converter](https://github.com/tannery495/youtube-history-converter).
-
 ### 🎨 **User Experience**
 - **Modern Interface**: Clean, card-based layout
 - **Dark/Light Theme**: Automatic system theme detection
-- **Smart Search**: Find videos quickly in your history
+- **Smart Search**: Search local data and YouTube results from the feed page
 - **Responsive Design**: Works perfectly on all screen sizes
+- **Simpler popup**: The toolbar popup stays focused on quick resume/watch-later actions while full browsing happens on the feed page
 
 ---
 
@@ -231,46 +246,45 @@ The extension automatically migrates from legacy storage to the new hybrid syste
 4. **Stats rebuild**: Analytics statistics are recalculated from migrated data
 5. **Graceful fallback**: Extension continues working during migration process
 
-### Data Structure
+### Data Stored
 
-The extension stores three types of data:
+The extension can store:
 
 - **Video History**: Video IDs, timestamps, progress, titles, and URLs
 - **Playlist History**: Playlist IDs, titles, and URLs
-- **Settings**: User preferences for overlay appearance, cleanup, and theme preferences
- - **Statistics**: Aggregated watch‑time summaries used for analytics (local only)
+- **Local Subscriptions**: Channels you subscribe to inside YT re:Watch
+- **Local Playlists and Watch Later**: Playlists and saved videos managed by the extension
+- **Settings**: User preferences for feed appearance, refresh, cleanup, and default page
+- **Statistics**: Aggregated watch-time summaries used for analytics (local only)
+- **Caches**: Duration, Shorts detection, and release-date caches used to make the feed faster and more accurate
 
 ## Usage
 
 1. **Install the extension** following the instructions above
 2. **Visit YouTube** and start watching videos
 3. **Your progress is automatically saved** every 5 seconds with smart timestamp loading to prevent video interruption
-4. **Click the extension icon** to view your watch history across multiple tabs:
-   - **Videos**: Regular YouTube videos with progress tracking
-   - **Shorts**: Dedicated interface for YouTube Shorts
-   - **Playlists**: Saved playlists with metadata
-   - **Analytics**: Interactive charts and viewing statistics
-   - **Settings**: Customize appearance, data management, and preferences
-5. **Export/import data** anytime for backup and transfer between devices
+4. **Click the extension icon** to quickly continue watching, open Watch Later, or open the full feed page
+5. **Use the feed page** for Home, Shorts, Subscriptions, Channels, Playlists, History, Analytics, Settings, search, and in-extension channel pages
+6. **Export/import data** anytime for backup and transfer between devices
 
 ### Settings
 
 #### 🎨 Appearance
 - **Theme**: Choose between System (follows your OS theme), Light, or Dark theme with instant switching
-- **Overlay Title**: Text to show in the overlay (max 12 characters)
-- **Overlay Color**: Color of the progress bar overlay (blue, red, green, purple, orange)
-- **Overlay Label Size**: Size of the overlay label and progress bar (small, medium, large, extra large)
+- **Accent Color**: Choose the feed page accent color
+- **Default Feed Page**: Choose whether the full feed opens to the last used page, Home, Shorts, Subscriptions, Channels, Playlists, History, or Analytics
 
-#### 🗂️ Data Management  
+#### 🗂️ History & Feed
 - **Auto-clean Period**: Automatically remove history entries older than specified days (1–180 days), or choose **Forever** to disable auto-cleanup
-- **Items per Page**: Number of items to show per page in history view (5-20)
-- **Debug Mode**: Enable debug logging for troubleshooting
+- **Feed Refresh Interval**: Choose how often the extension checks locally subscribed channels for new videos
+- **Clear History**: Remove local watch history when needed
 
 #### 🔄 Data Management
-- **Export History**: Download complete history as JSON file for backup
-- **Import History**: Restore or merge data from backup files
+- **Backup all data**: Download a local JSON backup containing history, subscriptions, playlists, settings, analytics data, recommendation preferences, and caches
+- **Restore backup**: Merge a previous YT re:Watch backup into the current browser profile
+- **Import YouTube history**: Import Google Takeout watch history
+- **Import channels**: Import YouTube subscriptions/channels from CSV or Takeout-style exports
 - **Data Portability**: Transfer history between devices manually
-- **Migration Status**: Monitor hybrid storage migration progress
 
 ### Theme System
 
@@ -313,39 +327,39 @@ The Analytics tab provides comprehensive insights into your YouTube viewing habi
 
 ## Privacy
 
-- **No Data Collection**: The extension does not collect, transmit, or store any data outside your device
-- **Local Storage Only**: All data is stored locally using the browser's secure storage API
-- **No External Servers**: The extension does not communicate with any external servers
+- **No app backend**: YT re:Watch does not upload your history to an extension-owned server
+- **Local Storage First**: Your history, local subscriptions, playlists, settings, backups, and analytics live in browser storage
+- **YouTube requests only when needed**: The extension contacts YouTube to read pages, RSS feeds, metadata, and search results needed for YouTube-related features
+- **Manual portability**: Backups are local JSON files that you control
 
 ## Security
 
-The extension uses the browser's built-in storage API (`chrome.storage.local`/`browser.storage.local`) which provides:
+The extension stores data in extension-scoped browser storage (`chrome.storage.local` / `browser.storage.local`) and IndexedDB:
 
-- **Encrypted Storage**: Data is stored in an encrypted format
-- **Access Control**: Only the extension can access the stored data
-- **No Console Access**: Data cannot be easily dumped through browser developer tools
+- **Extension isolation**: Web pages cannot read the extension's storage directly
+- **Browser-managed storage**: Data is protected by the browser profile and operating system user account
+- **Local backups**: Exported backup files are plain JSON, so store them somewhere you trust
 
 ## Troubleshooting
 
 ### Extension Not Working
-1. **Check YouTube Page**: Make sure you're on a YouTube page (youtube.com)
-2. **Refresh and Retry**: Refresh the page and try again
+1. **Refresh and Retry**: Refresh the YouTube page or the full feed page
+2. **Check Permissions**: Make sure the extension has access to YouTube
 3. **Extension Status**: Verify the extension is enabled in your browser
-4. **Debug Mode**: Enable debug mode in settings for detailed logging
+4. **Reload Extension**: Disable/enable the extension or reload it from the browser extension page
 
 ### History Not Loading  
-1. **Popup Refresh**: Close and reopen the popup interface
+1. **Feed Refresh**: Open the feed page and click Refresh
 2. **Page Refresh**: Refresh the YouTube page completely  
 3. **Console Logs**: Check browser console for error messages (F12 → Console)
 4. **Storage Check**: Verify extension has storage permissions
-5. **Improved Diagnostics**: Benefit from enhanced error messages and loading states
+5. **Backup First**: Export a backup before clearing any extension data
 
 ### Storage & Migration Issues
-1. **Migration Status**: Check popup for hybrid storage migration progress
-2. **Storage Space**: Ensure sufficient disk space for IndexedDB storage
-3. **Browser Storage**: Verify extension has storage permissions enabled
-4. **Fallback Mode**: Extension continues working if IndexedDB unavailable
-5. **Export Backup**: Always export data before major troubleshooting
+1. **Storage Space**: Ensure sufficient disk space for IndexedDB storage
+2. **Browser Storage**: Verify extension has storage permissions enabled
+3. **Fallback Mode**: Extension continues working if IndexedDB is unavailable
+4. **Export Backup**: Always export data before major troubleshooting
 
 ### Migration Issues
 If you experience issues with data migration from older versions:
@@ -358,16 +372,18 @@ If you experience issues with data migration from older versions:
 
 ### Project Structure
 ```
-├── src/                      # Source files
-│   ├── background/          # Background script
-│   ├── content/             # Content scripts
-│   ├── popup/               # Popup interface
-│   ├── shared/              # Shared utilities and components
-│   └── manifest/            # Manifest templates
-├── dist/                    # Distribution packages
-├── helpers/                 # Build helper scripts
-├── build.sh                 # Build script
-└── youtube-local-history.user.js  # Userscript version
+├── src/
+│   ├── background.js                 # Extension background/service worker logic
+│   ├── content*.js                   # YouTube page tracking, overlays, playlists, messages
+│   ├── popup*.js / popup.html        # Toolbar popup and quick actions
+│   ├── feed*.js / feed.html          # Full feed app, search, channel pages, settings, backup
+│   ├── storage.js                    # Hybrid storage API
+│   ├── indexeddb-storage.js          # IndexedDB backend
+│   └── manifest*.json                # Browser-specific manifests
+├── docs/                             # User and maintainer docs
+├── dist/                             # Built release packages
+├── build.sh                          # Chrome/Firefox build script
+└── merge_locales.js                  # Locale build helper
 ```
 
 ### Building
@@ -395,7 +411,7 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed release notes and version history.
 **YT re:Watch** is the ultimate **YouTube history extension** for users who:
 - Switch between **multiple YouTube accounts** (work/personal)
 - Want **YouTube history without login** requirements
-- Need **YouTube progress tracking** with visual overlays
+- Need **YouTube progress tracking** with local viewed indicators
 - Prefer **YouTube privacy** over Google's tracking
 - Want **consistent viewing history** regardless of account status
 
