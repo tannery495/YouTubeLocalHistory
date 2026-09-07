@@ -1,0 +1,190 @@
+{
+  "settings_interface_display": {
+    "message": "Oberfläche & Anzeige",
+    "description": "Settings section title for interface and display"
+  },
+  "settings_theme_label": {
+    "message": "Thema",
+    "description": "Label for theme selection in settings"
+  },
+  "settings_theme_help": {
+    "message": "Wählen Sie Ihr bevorzugtes Thema",
+    "description": "Help text for theme selection"
+  },
+  "settings_pagination_label": {
+    "message": "Elemente pro Seite",
+    "description": "Label for pagination count in settings"
+  },
+  "settings_pagination_help": {
+    "message": "Anzahl der anzuzeigenden Elemente pro Seite (1-100)",
+    "description": "Help text for pagination count"
+  },
+  "settings_overlay_title_label": {
+    "message": "Overlay-Titel",
+    "description": "Label for overlay title in settings"
+  },
+  "settings_overlay_title_help": {
+    "message": "Text, der im Overlay angezeigt wird (max. 12 Zeichen)",
+    "description": "Help text for overlay title"
+  },
+  "settings_overlay_color_label": {
+    "message": "Overlay-Farbe",
+    "description": "Label for overlay color in settings"
+  },
+  "settings_overlay_color_help": {
+    "message": "Farbe der Fortschrittsanzeige im Overlay",
+    "description": "Help text for overlay color"
+  },
+  "settings_overlay_size_label": {
+    "message": "Overlay-Größe",
+    "description": "Label for overlay size in settings"
+  },
+  "settings_overlay_size_help": {
+    "message": "Größe des Overlay-Labels und der Fortschrittsanzeige",
+    "description": "Help text for overlay size"
+  },
+  "settings_data_sync": {
+    "message": "Data",
+    "description": "Settings section title for data"
+  },
+  "settings_pause_in_playlists_label": {
+    "message": "Verlauf in Playlists pausieren",
+    "description": "Label for pause-in-playlists setting"
+  },
+  "settings_pause_in_playlists_help": {
+    "message": "Beim Abspielen aus einer Playlist den Video-Fortschritt nicht speichern",
+    "description": "Help text for pause-in-playlists setting"
+  },
+  "settings_data_management_label": {
+    "message": "Datenverwaltung",
+    "description": "Label for data management section"
+  },
+  "settings_export": {
+    "message": "Exportieren",
+    "description": "Button label for exporting history"
+  },
+  "settings_import": {
+    "message": "Importieren",
+    "description": "Button label for importing history"
+  },
+  "settings_export_help": {
+    "message": "Exportieren Sie Ihre Verlaufsdaten (Import kommt bald)",
+    "description": "Help text for export/import"
+  },
+  "settings_auto_clean_label": {
+    "message": "Automatische Löschperiode",
+    "description": "Label for auto-clean period in settings"
+  },
+  "settings_auto_clean_help": {
+    "message": "Entfernt automatisch Verlauf nach dem ausgewählten Zeitraum",
+    "description": "Help text for auto-clean period"
+  },
+  "settings_debug_label": {
+    "message": "Debug-Modus",
+    "description": "Label for debug mode option"
+  },
+  "settings_debug_help": {
+    "message": "Debug-Logging aktivieren (zur Fehlerbehebung)",
+    "description": "Help text for debug mode"
+  },
+  "settings_version_label": {
+    "message": "Erweiterungsversion",
+    "description": "Label for extension version display"
+  },
+  "settings_save": {
+    "message": "Einstellungen speichern",
+    "description": "Button label for saving settings"
+  },
+  "settings_data_label": {
+    "message": "Data",
+    "description": "Label for the data section in settings"
+  },
+  "settings_import_history": {
+    "message": "Import History",
+    "description": "Button label to import watch history"
+  },
+  "settings_import_history_help": {
+    "message": "Import History accepts the watch-history.html file from Google Takeout.",
+    "description": "Help text for the import history button"
+  },
+  "settings_import_subs": {
+    "message": "Import Subscriptions",
+    "description": "Button label to import subscriptions"
+  },
+  "settings_import_subs_help": {
+    "message": "Import Subscriptions accepts the subscriptions.csv file from Google Takeout.",
+    "description": "Help text for the import subscriptions button"
+  },
+  "settings_clear_help": {
+    "message": "Clear removes all saved video history (this cannot be undone)",
+    "description": "Help text for the Clear history button"
+  },
+  "settings_local_feed_label": {
+    "message": "Local feed",
+    "description": "Label for the local subscriptions feed toggle"
+  },
+  "settings_local_feed_help": {
+    "message": "Use locally subscribed channels to build the Local Feed feed",
+    "description": "Help text for the local subscriptions feed toggle"
+  },
+  "settings_hide_recs_label": {
+    "message": "Hide recommendations & popups",
+    "description": "Label for the hide recommendations toggle"
+  },
+  "settings_hide_recs_help": {
+    "message": "Hide YouTube's home recommendations and \"history is off\" nag popups.",
+    "description": "Help text for the hide recommendations toggle"
+  },
+  "settings_hide_account_label": {
+    "message": "Hide login & account UI",
+    "description": "Label for the hide account UI toggle"
+  },
+  "settings_hide_account_help": {
+    "message": "Hide YouTube's sign-in buttons, account menu, and native Subscribe/Join buttons (your local Subscribe stays).",
+    "description": "Help text for the hide account UI toggle"
+  },
+  "settings_feed_refresh_label": {
+    "message": "Feed refresh interval (minutes)",
+    "description": "Label for the feed refresh interval input"
+  },
+  "settings_feed_refresh_help": {
+    "message": "How often the local feed checks subscribed channels for new uploads",
+    "description": "Help text for the feed refresh interval input"
+  },
+  "subscriptions_refresh": {
+    "message": "Refresh feed",
+    "description": "Button label to refresh the local subscriptions feed"
+  },
+  "subscriptions_open_feed": {
+    "message": "Open Local Feed",
+    "description": "Button label to open the dedicated feed page"
+  },
+  "subscriptions_clear_all": {
+    "message": "Clear all",
+    "description": "Button label to remove all local subscriptions"
+  },
+  "subscriptions_no_subs": {
+    "message": "No local subscriptions yet. Search in the extension and use Subscribe.",
+    "description": "Empty state for the subscriptions tab"
+  },
+  "subscriptions_unsubscribe": {
+    "message": "Unsubscribe",
+    "description": "Button label to remove a local subscription"
+  },
+  "subscriptions_refreshing": {
+    "message": "Refreshing…",
+    "description": "Refresh button label while a refresh is in progress"
+  },
+  "subscriptions_refresh_started": {
+    "message": "Refreshing feed in your YouTube tab…",
+    "description": "Message shown when a feed refresh starts"
+  },
+  "subscriptions_open_youtube": {
+    "message": "Open a YouTube tab to refresh the feed.",
+    "description": "Message shown when no YouTube tab is open to refresh the feed"
+  },
+  "message_settings_saved": {
+    "message": "Settings saved",
+    "description": "Generic confirmation that settings were saved"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Local Feed",
+  "version": "1.0.10",
+  "description": "Local YouTube history, watch progress, subscriptions, playlists, and feed. Personal watch data stays in your browser.",
+  "author": "Edin User",
+  "homepage_url": "https://github.com/EdinUser/YouTubeLocalHistory",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "fallenangelbg@protonmail.com",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "permissions": [
+    "storage",
+    "unlimitedStorage",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "https://youtubei.googleapis.com/*"
+  ],
+  "background": {
+    "scripts": [
+      "indexeddb-storage.js",
+      "storage.js",
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "js": [
+        "storage.js",
+        "content-css.js",
+        "content-url.js",
+        "content-import.js",
+        "content-playlists.js",
+        "content-info.js",
+        "content-thumbnails.js",
+        "content-messages.js",
+        "content.js",
+        "feed-core.js",
+        "content-subscriptions.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icon48.png"
+      ],
+      "matches": [
+        "*://*.youtube.com/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YouTube Local Feed"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
+  "default_locale": "en"
+}

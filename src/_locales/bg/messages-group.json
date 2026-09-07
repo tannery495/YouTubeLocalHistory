@@ -1,0 +1,130 @@
+{
+  "message_no_active_tab": {
+    "message": "Няма активен раздел.",
+    "description": "Error message when no active tab is found"
+  },
+  "message_video_removed": {
+    "message": "Видеото е премахнато от историята",
+    "description": "Success message when a video is removed from history"
+  },
+  "message_error_removing_video": {
+    "message": "Грешка при премахване на видеото: $1",
+    "description": "Error message when removing a video fails, $1 is the error detail"
+  },
+  "message_history_cleared": {
+    "message": "Историята е изчистена успешно",
+    "description": "Success message when history is cleared"
+  },
+  "message_error_clearing_history": {
+    "message": "Грешка при изчистване на историята: $1",
+    "description": "Error message when clearing history fails, $1 is the error detail"
+  },
+  "message_export_success": {
+    "message": "Историята е експортирана успешно: $1 видеа, $2 плейлисти",
+    "description": "Success message when history is exported, $1 is video count, $2 is playlist count"
+  },
+  "message_error_exporting_history": {
+    "message": "Грешка при експортиране на историята: $1",
+    "description": "Error message when exporting history fails, $1 is the error detail"
+  },
+  "message_import_success": {
+    "message": "Историята $1 успешно: $2 видеа, $3 плейлисти",
+    "description": "Success message when history is imported, $1 is mode, $2 is video count, $3 is playlist count"
+  },
+  "message_error_importing_history": {
+    "message": "Грешка при импортиране на историята: $1",
+    "description": "Error message when importing history fails, $1 is the error detail"
+  },
+  "message_no_data_in_import": {
+    "message": "Не са намерени данни във файла за импортиране",
+    "description": "Error message when no data is found in import file"
+  },
+  "message_invalid_file_format": {
+    "message": "Невалиден файлов формат: $1",
+    "description": "Error message for invalid import file format, $1 is the detail"
+  },
+  "message_confirm_clear_history": {
+    "message": "Сигурни ли сте, че искате да изчистите цялата история? Това не може да се отмени.",
+    "description": "Confirmation for clearing all history."
+  },
+  "message_warning_clear_all": {
+    "message": "ВНИМАНИЕ: Това ще изтрие цялата ви история и плейлисти в YouTube. Това не може да се отмени. Продължавате ли?",
+    "description": "Warning for clearing all history and playlists."
+  },
+  "message_all_history_cleared": {
+    "message": "Цялата история на видеа и плейлисти е изчистена успешно",
+    "description": "Success message when all history and playlists are cleared"
+  },
+  "message_export_completed": {
+    "message": "Експортирането е завършено успешно",
+    "description": "Success message when export is completed"
+  },
+  "message_failed_to_initialize": {
+    "message": "Неуспешно инициализиране на разширението: $1",
+    "description": "Error message when extension initialization fails, $1 is the error detail"
+  },
+  "message_error_loading_history": {
+    "message": "Грешка при зареждане на историята: $1",
+    "description": "Error message when loading history fails, $1 is the error detail"
+  },
+  "message_no_playlists_found": {
+    "message": "Няма намерени плейлисти.",
+    "description": "Message when no playlists are found"
+  },
+  "message_error_loading_playlists": {
+    "message": "Грешка при зареждане на плейлистите: $1",
+    "description": "Error message when loading playlists fails, $1 is the error detail"
+  },
+  "message_playlist_removed": {
+    "message": "Плейлистът е премахнат",
+    "description": "Success message when a playlist is removed"
+  },
+  "message_error_removing_playlist": {
+    "message": "Грешка при премахване на плейлист: $1",
+    "description": "Error message when removing a playlist fails, $1 is the error detail"
+  },
+  "message_auto_clean_updated": {
+    "message": "Периодът за автоматично почистване е обновен",
+    "description": "Success message when auto-clean period is updated"
+  },
+  "message_pagination_count_updated": {
+    "message": "Броят на страниците е обновен",
+    "description": "Message when pagination count is updated"
+  },
+  "message_overlay_title_updated": {
+    "message": "Заглавието на наслагването е обновено",
+    "description": "Message when overlay title is updated"
+  },
+  "message_overlay_color_updated": {
+    "message": "Цветът на наслагването е обновен",
+    "description": "Message when overlay color is updated"
+  },
+  "message_overlay_size_updated": {
+    "message": "Размерът на наслагването е обновен",
+    "description": "Message when overlay label size is updated"
+  },
+  "message_theme_preference_updated": {
+    "message": "Предпочитанията за тема са обновени",
+    "description": "Message when theme preference is updated"
+  },
+  "message_debug_mode_enabled": {
+    "message": "Режимът за отстраняване на грешки е активиран",
+    "description": "Message when debug mode is enabled"
+  },
+  "message_debug_mode_disabled": {
+    "message": "Режимът за отстраняване на грешки е деактивиран",
+    "description": "Message when debug mode is disabled"
+  },
+  "settings_convert_history": {
+    "message": "Конвертиране на YouTube история",
+    "description": "Button label to open the community converter tool"
+  },
+  "settings_convert_history_help": {
+    "message": "Отваря общностния инструмент за конвертиране на Google Takeout watch-history.json във файл за импорт в Local Feed.",
+    "description": "Help text for the community converter tool link"
+  },
+  "message_unknown_error": {
+    "message": "Неизвестна грешка",
+    "description": "Fallback for unknown error details"
+  }
+}

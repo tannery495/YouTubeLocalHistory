@@ -1,0 +1,130 @@
+{
+  "message_no_active_tab": {
+    "message": "No active tab found.",
+    "description": "Error message when no active tab is found"
+  },
+  "message_video_removed": {
+    "message": "Video removed from history",
+    "description": "Success message when a video is removed from history"
+  },
+  "message_error_removing_video": {
+    "message": "Error removing video: $1",
+    "description": "Error message when removing a video fails, $1 is the error detail"
+  },
+  "message_history_cleared": {
+    "message": "History cleared successfully",
+    "description": "Success message when history is cleared"
+  },
+  "message_error_clearing_history": {
+    "message": "Error clearing history: $1",
+    "description": "Error message when clearing history fails, $1 is the error detail"
+  },
+  "message_export_success": {
+    "message": "History exported successfully: $1 videos, $2 playlists",
+    "description": "Success message when history is exported, $1 is video count, $2 is playlist count"
+  },
+  "message_error_exporting_history": {
+    "message": "Error exporting history: $1",
+    "description": "Error message when exporting history fails, $1 is the error detail"
+  },
+  "message_import_success": {
+    "message": "History $1 successfully: $2 videos, $3 playlists",
+    "description": "Success message when history is imported, $1 is mode, $2 is video count, $3 is playlist count"
+  },
+  "message_error_importing_history": {
+    "message": "Error importing history: $1",
+    "description": "Error message when importing history fails, $1 is the error detail"
+  },
+  "message_no_data_in_import": {
+    "message": "No data found in import file",
+    "description": "Error message when no data is found in import file"
+  },
+  "message_invalid_file_format": {
+    "message": "Invalid file format: $1",
+    "description": "Error message for invalid import file format, $1 is the detail"
+  },
+  "message_confirm_clear_history": {
+    "message": "Are you sure you want to clear all history? This cannot be undone.",
+    "description": "Confirmation for clearing all history."
+  },
+  "message_warning_clear_all": {
+    "message": "WARNING: This will permanently delete ALL your YouTube viewing history and playlists. This cannot be undone. Continue?",
+    "description": "Warning for clearing all history and playlists."
+  },
+  "message_all_history_cleared": {
+    "message": "All video and playlist history has been cleared successfully",
+    "description": "Success message when all history and playlists are cleared"
+  },
+  "message_export_completed": {
+    "message": "Export completed successfully",
+    "description": "Success message when export is completed"
+  },
+  "message_failed_to_initialize": {
+    "message": "Failed to initialize extension: $1",
+    "description": "Error message when extension initialization fails, $1 is the error detail"
+  },
+  "message_error_loading_history": {
+    "message": "Error loading history: $1",
+    "description": "Error message when loading history fails, $1 is the error detail"
+  },
+  "message_no_playlists_found": {
+    "message": "No playlists found.",
+    "description": "Message when no playlists are found"
+  },
+  "message_error_loading_playlists": {
+    "message": "Error loading playlists: $1",
+    "description": "Error message when loading playlists fails, $1 is the error detail"
+  },
+  "message_playlist_removed": {
+    "message": "Playlist removed",
+    "description": "Success message when a playlist is removed"
+  },
+  "message_error_removing_playlist": {
+    "message": "Error removing playlist: $1",
+    "description": "Error message when removing a playlist fails, $1 is the error detail"
+  },
+  "message_auto_clean_updated": {
+    "message": "Auto-clean period updated",
+    "description": "Success message when auto-clean period is updated"
+  },
+  "message_pagination_count_updated": {
+    "message": "Pagination count updated",
+    "description": "Message when pagination count is updated"
+  },
+  "message_overlay_title_updated": {
+    "message": "Overlay title updated",
+    "description": "Message when overlay title is updated"
+  },
+  "message_overlay_color_updated": {
+    "message": "Overlay color updated",
+    "description": "Message when overlay color is updated"
+  },
+  "message_overlay_size_updated": {
+    "message": "Overlay size updated",
+    "description": "Message when overlay label size is updated"
+  },
+  "message_theme_preference_updated": {
+    "message": "Theme preference updated",
+    "description": "Message when theme preference is updated"
+  },
+  "message_debug_mode_enabled": {
+    "message": "Debug mode enabled",
+    "description": "Message when debug mode is enabled"
+  },
+  "message_debug_mode_disabled": {
+    "message": "Debug mode disabled",
+    "description": "Message when debug mode is disabled"
+  },
+  "settings_convert_history": {
+    "message": "Convert YouTube history",
+    "description": "Button label to open the community converter tool"
+  },
+  "settings_convert_history_help": {
+    "message": "Open the community tool to convert Google Takeout watch-history.json into a Local Feed import file.",
+    "description": "Help text for the community converter tool link"
+  },
+  "message_unknown_error": {
+    "message": "Unknown error",
+    "description": "Fallback for unknown error details"
+  }
+}
